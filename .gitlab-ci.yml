@@ -1,0 +1,47 @@
+stages:
+  - lint
+  - test
+  - build
+lint:
+  stage: lint
+  image: maven:3.8.4-jdk-11
+  script:
+    - mvn checkstyle:check
+  only:
+    - master
+    - main
+
+unit_tests:
+  stage: test
+  image: maven:3.8.4-jdk-11
+  script:
+    - mvn test
+  only:
+    - master
+    - main
+
+integration_tests:
+  stage: test
+  image: maven:3.8.4-jdk-11
+  script:
+    - mvn verify
+  only:
+    - master
+    - main
+behaviour_tests:
+  stage: test
+  image: maven:3.8.4-jdk-11
+  script:
+    - mvn verify -Dcucumber.options="--glue stepdefinitions --plugin pretty"
+  only:
+    - master
+    - main
+
+build:
+  stage: build
+  image: maven:3.8.4-jdk-11
+  script:
+    - mvn clean install
+  only:
+    - master
+    - main
