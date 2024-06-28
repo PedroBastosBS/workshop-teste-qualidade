@@ -1,13 +1,11 @@
 package com.atto.intelligence.useCases;
 
 public class PaymentUseCase {
-    public Float inTerm(String price) {
-        Float parse = Float.parseFloat(price);
-        return parse * 2;
+    public Float inTerm(Float price) {
+        return price * 2;
     }
 
-    public Float inCash(String price) {
-        Float parse = Float.parseFloat(price);
-        return parse * 0.80f;
+    public Float inCash(Float price) {
+        return price * 0.80f;
     }
 }

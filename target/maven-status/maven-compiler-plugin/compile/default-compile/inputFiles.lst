@@ -4,4 +4,5 @@
 /Users/macbook/Documents/workshop-quality-atto/src/main/java/com/atto/intelligence/App.java
 /Users/macbook/Documents/workshop-quality-atto/src/main/java/com/atto/intelligence/entities/AgriculturalInputEntity.java
 /Users/macbook/Documents/workshop-quality-atto/src/main/java/com/atto/intelligence/useCases/FarmerRegistrationUseCase.java
+/Users/macbook/Documents/workshop-quality-atto/src/main/java/com/atto/intelligence/useCases/FinalizePurchaseUseCase.java
 /Users/macbook/Documents/workshop-quality-atto/src/main/java/com/atto/intelligence/useCases/ProductRegistrationUseCase.java

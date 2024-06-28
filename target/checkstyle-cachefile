@@ -1,0 +1,4 @@
+#Fri Jun 28 10:09:00 AMT 2024
+configuration*?=8E052BD79126C55AF5E73B7A9F998B7958724349
+module-resource*?\:checkstyle-xpath-suppressions.xml=E801C4E7590C2047285E486554D1A9F9AAE86D14
+module-resource*?\:checkstyle-suppressions.xml=71F7B40F5614D88E4A9878A40E2691986185C976

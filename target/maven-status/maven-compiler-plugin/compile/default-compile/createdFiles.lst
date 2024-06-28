@@ -1,0 +1,5 @@
+com/atto/intelligence/App.class
+com/atto/intelligence/useCases/ProductRegistrationUseCase.class
+com/atto/intelligence/useCases/FarmerRegistrationUseCase.class
+com/atto/intelligence/entities/FarmerEntity.class
+com/atto/intelligence/entities/AgriculturalInputEntity.class
