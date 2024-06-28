@@ -7,8 +7,7 @@ import io.cucumber.java.en.When;
 public class StepDefinition {
      @Given("The user will be registered by providing their data.")
     public void the_user_will_be_registered_by_providing_their_data() {
-
-
+        
     }
 
     @When("registration to be carried out.")
